@@ -10,7 +10,7 @@ on:
       - main
 jobs:
   Build:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     strategy:
       matrix:
         container: ["gradle:6-jdk8", "gradle:6-jdk11"]
